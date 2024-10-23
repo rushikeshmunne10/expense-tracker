@@ -41,7 +41,7 @@ const ExpenseChart = ({ expenses }) => {
 
     return (
 
-        <Pie data={data} ref={chartRef}/>
+        <Pie data={data} ref={chartRef} className='mb-5'/>
 
     );
 };
